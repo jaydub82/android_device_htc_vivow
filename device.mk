@@ -79,8 +79,7 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/vivow/overlay
 
 # gsm config xml file
 PRODUCT_COPY_FILES += \
-    device/htc/vivow/voicemail-conf.xml:system/etc/voicemail-conf.xml \
-    device/htc/vivow/apns-conf.xml:system/etc/apns-conf.xml
+    device/htc/vivow/voicemail-conf.xml:system/etc/voicemail-conf.xml
 
 # Sensors, GPS, Lights
 PRODUCT_PACKAGES += \
